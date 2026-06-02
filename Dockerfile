@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install
 
 COPY server/package*.json ./server/
-RUN cd server && npm install
+RUN cd server && npm install && npm rebuild sqlite3 --build-from-source
 
 # Copy source code
 COPY . .
