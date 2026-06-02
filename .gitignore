@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+*.zip
+*.exe
+*.log
+*.txt
+.venv
+venv
+
+push_fix.ps1
